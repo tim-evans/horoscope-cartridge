@@ -5,6 +5,13 @@
     <title>Horoscope</title>
   </head>
   <body>
-    <div id="mi_size_container"></div>
+    <main id="mi_size_container"></main>
+    <script src="dist/horoscope.js"></script>
+    <script>
+      window.MI = {
+        options: { birthday: '1988-03-20' }
+      };
+      horoscope();
+    </script>
   </body>
 </html>

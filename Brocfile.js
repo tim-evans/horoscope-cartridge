@@ -39,7 +39,7 @@ function Cartridge() {
     });
   };
 
-  var js = concat(transpile('assets', { modules: 'amd' }), {
+  var js = concat(transpile('assets', { modules: 'umd' }), {
     inputFiles: [
       '**/*.js'
     ],
@@ -71,7 +71,7 @@ function Cartridge() {
     inputFiles: [
       '**/*.js'
     ],
-    outputFile: '/' + manifest.name + '.amd.js'
+    outputFile: '/' + manifest.name + '.js'
   });
 }
 
