@@ -1,0 +1,21 @@
+---
+name: 'horoscope'
+authors:
+- 'Tim Evans <tevans@movableink.com>'
+description: 'Daily horoscope'
+
+fields:
+- name: 'period'
+  type: 'select'
+  options:
+  - label: 'Daily'
+    value: 'daily'
+  - label: 'Weekly'
+    value: 'weekly'
+  - label: 'Monthy'
+    value: 'monthly'
+  - label: 'Yearly'
+    value: 'yearly'
+
+available_data:
+  birthday: 'birthday'

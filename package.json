@@ -1,0 +1,20 @@
+{
+  "name": "horoscope",
+  "version": "1.0.0",
+  "description": "MovableInk cartridge for horoscopes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "broccoli": "^0.16.8",
+    "broccoli-babel-transpiler": "^5.4.5",
+    "broccoli-concat": "0.0.13",
+    "broccoli-funnel": "^0.2.8",
+    "broccoli-merge-trees": "^0.2.3",
+    "broccoli-uglify-js": "^0.1.3",
+    "yaml-js": "^0.1.3"
+  }
+}
