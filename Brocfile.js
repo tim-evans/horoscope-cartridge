@@ -39,7 +39,7 @@ function Cartridge() {
     });
   };
 
-  var js = concat(transpile('assets', { modules: 'umd' }), {
+  var js = concat(transpile('assets', { modules: 'amd' }), {
     inputFiles: [
       '**/*.js'
     ],
@@ -69,7 +69,8 @@ function Cartridge() {
 
   return concat(mergeTrees([vendor, js]), {
     inputFiles: [
-      '**/*.js'
+      'vendor.js',
+      'main.amd.js'
     ],
     outputFile: '/' + manifest.name + '.js'
   });
