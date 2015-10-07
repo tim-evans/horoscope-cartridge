@@ -6,6 +6,7 @@ description: 'Daily horoscope'
 
 fields:
 - name: 'period'
+  label: 'Period'
   type: 'select'
   options:
   - label: 'Daily'
